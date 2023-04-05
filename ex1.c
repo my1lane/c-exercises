@@ -6,7 +6,7 @@ int main() {
     int n;
 
     fgets(some_words, sizeof(some_words), stdin);
-    n = strlen(some_words) - 1;
+    n = strlen(some_words);
 
     for (int i = 0; i < strlen(some_words); i++) {
         reverse_some_words[i] = some_words[n - i];
